@@ -93,5 +93,5 @@ app.post('/api/notes', async (req, res) => {
   });
 
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${port}`)
+  console.log(`App listening at http://localhost:${PORT}`)
 );
