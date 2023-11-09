@@ -6,7 +6,7 @@ const { readAndAppend, writeToFile, readFromFile } = require('./helpers/fsUtils'
 // importing path for routing, uuid helpers for id creation, fsUtils for reading and writing to file
 
 // looks for hiroku port?
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
