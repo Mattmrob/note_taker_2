@@ -16,9 +16,6 @@ Doing so will send you to the home page of the Note Taker App!
 
 If deploying from a website, the base route will be dependant on your domain name or server provider.
 
-Alternatively, if it is online, you can access the app from:
-https://note-taker-assignment-app-41d9f825d1e3.herokuapp.com/
-
 ## Usage
 
 Once you have successfully ran the files and connected to the active home page, you will see the following screen:
