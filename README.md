@@ -49,7 +49,7 @@ And that is the functionality of the app!
 
 ## Credits
 
-Starter code from UC Berkely
+Starter code and templates from UC Berkely Full Stack Developement Course
 
 ## License
 
