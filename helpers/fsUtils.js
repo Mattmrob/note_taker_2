@@ -1,3 +1,4 @@
+// FS Utilities template from UC Berkely Full Stack Developement Course
 const fs = require('fs');
 const util = require('util');
 

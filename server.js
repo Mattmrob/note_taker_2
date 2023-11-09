@@ -5,7 +5,8 @@ const uuid = require('./helpers/uuid')
 const { readAndAppend, writeToFile, readFromFile } = require('./helpers/fsUtils');
 // importing path for routing, uuid helpers for id creation, fsUtils for reading and writing to file
 
-const PORT = 3001;
+// looks for hiroku port?
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -92,5 +93,5 @@ app.post('/api/notes', async (req, res) => {
   });
 
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT}`)
+  console.log(`App listening at http://localhost:${port}`)
 );
